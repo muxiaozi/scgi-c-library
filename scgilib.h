@@ -21,6 +21,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 
+#include <sys/select.h>
+
 typedef struct SCGI_PORT scgi_port;
 typedef struct SCGI_HEADER scgi_header;
 typedef struct SCGI_REQUEST scgi_request;

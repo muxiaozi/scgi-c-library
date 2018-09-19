@@ -1,3 +1,4 @@
 *.o
 helloworld
 helloworld.dSYM
+/.vscode
